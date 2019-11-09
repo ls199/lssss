@@ -37,7 +37,7 @@
 
             <div class="mask" v-if="showModals" @click="showModals=true"></div>
             <div id="car" class="pop" v-if="showModals">
-              
+              购买成功！！！
               <button @click="showModals=false" class="btn">确定</button>
             </div>
 
@@ -103,8 +103,8 @@ export default {
       select: "",
       boardList: [
         {
-          title: "开发产品",
-          description: "开放产品是一款开放产品",
+          title: "产品",
+          description: "产品是一款产品",
 
           id: "car",
           toKey: "analysis",
@@ -112,24 +112,24 @@ export default {
           saleout: false
         },
         {
-          title: "品牌营销",
-          description: "品牌营销帮助你的产品更好地找到定位",
+          title: "产品",
+          description: "产品是一款产品",
           id: "earth",
           toKey: "count",
           image: "../assets/images/1.png",
           saleout: false
         },
         {
-          title: "使命必达",
-          description: "使命必达快熟迭代永远保持最前端的速度",
+          title: "产品产品",
+          description: "产品是一款产品",
           id: "loud",
           toKey: "forecast",
           image: "../assets/images/1.png",
           saleout: true
         },
         {
-          title: "勇攀高峰",
-          description: "帮你勇闯高峰，到达事业的顶峰",
+          title: "产品产品",
+          description: "产品是一款产品",
           id: "hill",
           toKey: "publish",
           image: "../assets/images/1.png",
@@ -229,10 +229,10 @@ export default {
   background: url(../assets/images/1.png) no-repeat;
 }
 .index-board-loud .index-board-item-inner {
-  background: url(../assets/images/2.png) no-repeat;
+  background: url(../assets/images/4.png) no-repeat;
 }
 .index-board-earth .index-board-item-inner {
-  background: url(../assets/images/3.png) no-repeat;
+  background: url(../assets/images/1.png) no-repeat;
 }
 .index-board-hill .index-board-item-inner {
   background: url(../assets/images/4.png) no-repeat;

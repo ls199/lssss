@@ -69,7 +69,7 @@ export default {
             id: 3,
             image: "https://static.runoob.com/images/icon/html.png",
             names: "5V5",
-            name: "云顶之以"
+            name: "云顶"
           }
         ];
       }
