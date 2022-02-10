@@ -14,7 +14,7 @@
   "dependencies": {
     "@babel/core": "^7.6.3",
     "@babel/preset-env": "^7.6.3",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "vue": "^2.5.2",
     "vue-cus-tabs": "^0.1.2",
     "vue-router": "^3.0.1",
